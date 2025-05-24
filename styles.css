@@ -338,3 +338,12 @@ body {
         display: flex;
     }
 }
+
+.rodape {
+    background-color: #f5f5f5; /* Cor de fundo escura */
+    color: #333;            /* Cor do texto branca */
+    text-align: center;     /* Centraliza o texto */
+    padding: 20px;          /* Espaço interno */
+    margin-top: 40px;       /* Espaço acima do rodapé */
+    font-size: 0.9em;       /* Tamanho de fonte menor */
+}
