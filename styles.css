@@ -86,6 +86,17 @@ body {
     padding: 40px 0;         /* Espaço acima e abaixo do banner */
 }
 
+.conteudo a {
+    display: inline-block; /* Mantém o bloco ocupando o espaço da imagem */
+}
+
+.conteudo a img {
+    width: 100%;
+    height: auto;
+    display: block; /* Evita espaços indesejados abaixo da imagem */
+}
+
+
 .banner {
     width: 80%;              /* Ocupa 80% da largura da página */
     max-width: 1000px;       /* Limite máximo */
